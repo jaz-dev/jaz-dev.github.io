@@ -23,8 +23,8 @@ img {
 
 .wrapper { max-width: 1150px; margin: auto; padding: 50px; display: block; } .bio { color: #ffffff; font-size: 24px; font-family: 'Space Mono'; }
 .buttonBox { display: flex; justify-content: center; align-content: center; } .myButton { border-radius: 28px; border: 1px solid #ffffff; cursor: pointer; color: #ffffff; font-size: 20px; padding: 16px 31px; text-decoration: none; margin: 1.69em auto; } .myButton:hover { background-color:#e69708; } .myButton:active { position:relative; top:1px; }
-.recipe {
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.5);
+.project {
+  box-shadow: 0 0px 1px 0 rgb(0 0 0 / 40%);
   width: 100%;
 }
 a {
@@ -64,16 +64,10 @@ a {
   letter-spacing: 0.1px;
   text-align: left;
   color: #4a4a4a;
-  padding: 10px 0px 10px 10px;
-  border-top: 1px solid #4a4a4a;
+  padding: 0 20px 20px 20px;
 }
 
-.logo {
-  width: 115px;
-  height: 21.1px;
-  object-fit: contain;
-  padding: 20px;
-}
+
 
 .container { /* min-width: 500px; */ margin: auto; }
 
